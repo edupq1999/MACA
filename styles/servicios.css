@@ -1,0 +1,61 @@
+:root{
+    --verde: #DBECE0;
+    --blanco: #FAF9F9;
+    --beige: #F0DFCC;
+    --purple: #E0D8ED;
+    --negro: #000000;
+}
+.service{
+    width: 100%;
+    padding: 20px 0;
+
+    background-color: var(--blanco);
+}
+.service:nth-child(3){
+    background-color: var(--purple);
+}
+.service_container{
+    width: 90%;
+    padding-bottom: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    gap: 1em;
+
+    position: relative;
+}
+.service_title{
+    font-size: 30px;
+}
+.service_subtitle{
+    font-size: 36px;
+}
+.service_parrafo{
+    font-size: 20px;
+}
+.service_link{
+    font-size: 24px;
+    color: var(--negro);
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.toContact{
+    width: 100%;
+    text-align: center;
+
+    background-color: var(--verde);
+    padding: 40px 0;
+}
+.toContact_info{
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.toContact_button{
+    font-size: 40px;
+}
